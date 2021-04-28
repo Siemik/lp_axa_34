@@ -58,7 +58,6 @@
 }
 .list-ul {
   list-style-type: square;
-  padding-left: 30px;
 }
 .list-li {
   font-size: 23px;
@@ -90,7 +89,14 @@ li::marker {
 
 .car-img {
   position: absolute;
-  width: 620px;
-  height: auto;
+  width: auto;
+  height: 680px;
   top: -10px;
+}
+
+.footer {
+  margin: 80px 0 40px 7px;
+  color: #888787;
+  font-family: "mBankRegular";
+  font-size: 14px;
 }
