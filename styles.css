@@ -8,7 +8,7 @@
   src: url("fonts/mBankLite-Light.ttf");
 }
 @font-face {
-  font-family: "mBankLite-Regular";
+  font-family: "mBankRegular";
   src: url("fonts/mBankLite-Regular.ttf");
 }
 @font-face {
@@ -31,4 +31,66 @@
   margin: auto 0;
   margin-left: 18px;
   padding-top: 5px;
+}
+
+.main {
+  font-family: "mBankBold";
+  display: flex;
+  flex-direction: row;
+}
+
+.main-h1 {
+  font-size: 39px;
+  margin-top: 50px;
+}
+.sub-h1 {
+  font-size: 27px;
+  margin-top: 10px;
+  font-family: "mBankBold";
+}
+.price-span {
+  color: #ac060f;
+  font-size: 50px;
+}
+.list-header {
+  font-size: 27px;
+  margin-top: 25px;
+}
+.list-ul {
+  list-style-type: square;
+  padding-left: 30px;
+}
+.list-li {
+  font-size: 23px;
+  margin-top: 15px;
+  font-family: "mBankRegular";
+}
+.li-bold {
+  font-family: "mBankBold";
+}
+li::marker {
+  color: #ac060f;
+  font-size: 30px;
+}
+.btn-cta {
+  margin-top: 40px;
+  background-color: #ac060f;
+  color: white;
+  font-family: "mBankBold";
+  font-size: 20px;
+  border-radius: 50px;
+  border: none;
+  padding: 12px 0 15px 0;
+  width: 339px;
+  font-size: 20px;
+}
+.btn-cta:hover {
+  background-color: #d42c35;
+}
+
+.car-img {
+  position: absolute;
+  width: 620px;
+  height: auto;
+  top: -10px;
 }
