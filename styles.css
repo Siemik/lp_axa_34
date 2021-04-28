@@ -15,6 +15,9 @@
   font-family: "mBankSemiBold";
   src: url("fonts/mBankLite-SemiBold.ttf");
 }
+body {
+  margin: 20px;
+}
 
 .wrapper {
   max-width: 1250px;
@@ -42,11 +45,13 @@
 .main-h1 {
   font-size: 39px;
   margin-top: 50px;
+  letter-spacing: -1.6px;
 }
 .sub-h1 {
   font-size: 27px;
   margin-top: 10px;
   font-family: "mBankBold";
+  letter-spacing: -1.6px;
 }
 .price-span {
   color: #ac060f;
