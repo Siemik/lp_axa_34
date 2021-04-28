@@ -59,10 +59,12 @@ body {
 }
 .list-header {
   font-size: 27px;
+  margin: 0;
   margin-top: 25px;
 }
 .list-ul {
   list-style-type: square;
+  padding-left: 30px;
 }
 .list-li {
   font-size: 23px;
